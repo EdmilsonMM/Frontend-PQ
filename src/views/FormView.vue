@@ -97,7 +97,7 @@
         },
         methods:{
             async registerUser(){
-                const res = await fetch('http://localhost:3000/api/formulario',{
+                const res = await fetch('https://api-expre.herokuapp.com/api/formulario',{
                         method : 'POST',
                         body : JSON.stringify(this.task),
                         headers : {
