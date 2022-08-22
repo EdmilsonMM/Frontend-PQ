@@ -1,14 +1,16 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-gray-900  min-h-screen">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Formulario</router-link> |
+      <router-link to="/list">lista</router-link>
     </nav>
     <router-view/>
   </div>
 </template>
 
 <style>
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +25,7 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffff;
 }
 
 nav a.router-link-exact-active {
