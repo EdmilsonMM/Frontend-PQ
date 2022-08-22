@@ -41,12 +41,12 @@
         },
         methods:{
              async listarUsuarios(){
-                const response = await fetch('http://localhost:3000/api/formulario');
+                const response = await fetch('https://api-expre.herokuapp.com/api/formulario');
                 const data = await response.json();
                 this.usuarios = data
             },
             async deleteUser(id){
-                const res = await fetch('http://localhost:3000/api/formulario/'+id,{
+                const res = await fetch('https://api-expre.herokuapp.com/api/formulario/'+id,{
                     method : 'DELETE',
                     headers : {
                         'Accept': 'application/json',

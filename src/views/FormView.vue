@@ -65,10 +65,10 @@
                         cols="30" 
                         rows="10" 
                         placeholder="Mensaje"
-                        class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2"></textarea>
+                        class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2 max-h-52 min-h-full" ></textarea>
                     </div>
                      <div>
-                        <button class="inline-block self-end bg-white text-black font-bold rounded-lg px-6 py-2 uppercase text-sm " > Enviar</button>
+                        <button class="inline-block self-end bg-white text-black font-bold rounded-lg px-6 py-2 uppercase text-sm "> Enviar</button>
                     </div>
                 </form>
             </div>
