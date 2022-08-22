@@ -29,35 +29,40 @@
                             type="text" 
                             v-model="task.usuario"
                             placeholder="Nombre y Apellido" 
-                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2 focus:b">
+                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2 focus:b"
+                            required>
                     </div>
                     <div>
                         <input 
                             type="text" 
                             v-model="task.razonSocial"
                             placeholder="Razon Social"
-                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2">
+                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2"
+                            required>
                     </div>
                     <div>
                         <input 
                             type="text" 
                             v-model="task.cargo"
                             placeholder="cargo"
-                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2">
+                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2"
+                            required>
                     </div>
                     <div>
                         <input 
                             type="number" 
                             v-model="task.celular"
                             placeholder="celular"
-                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2">
+                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2"
+                            required>
                     </div>
                     <div>
                         <input 
                             type="email" 
                             v-model="task.correo" 
                             placeholder="Correo"
-                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2">
+                            class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2"
+                            required>
                     </div>
                     <div>
                         <textarea 
@@ -65,7 +70,8 @@
                         cols="30" 
                         rows="10" 
                         placeholder="Mensaje"
-                        class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2 max-h-52 min-h-full" ></textarea>
+                        class=" w-full px4 py-2 outline-none bg-transparent border-0  border-b-2 max-h-52 min-h-full"
+                        required ></textarea>
                     </div>
                      <div>
                         <button class="inline-block self-end bg-white text-black font-bold rounded-lg px-6 py-2 uppercase text-sm "> Enviar</button>
